@@ -2,7 +2,8 @@ name: Desplegar chat en Render
 
 on:
   push:
-    branches: [master]
+    # lab8-vault: rama del laboratorio 8, desplegada en el servicio una-chat-vault
+    branches: [master, lab8-vault]
 
 permissions:
   contents: read
